@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav{
+            background-color: #b5a7a7;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+         
+          padding-left: 20px;
+          padding-right: 10px;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            column-gap: 20px;
+            padding-right: 20px;
+           
+        }
+        #Searchbar{
+            padding: 5px 10px;
+            background:white;
+            border-radius: 30px;
+            overflow: hidden;
+            display: flex;
+            /* background: green; */
+        }
+        #Searchbar img{
+            width: 40px;
+        }
+        #h{
+            height: 40px;
+            width: 300px;
+            /* border-radius: 30px; */
+            border: 0;
+            /* background: rebeccapurple; */
+            outline: none;
+        }
+        #main
+{     
+     display: flex;
+    width: 100%;
+    
+   
+}
+        #first{
+            background-color: hsl(110, 80%, 40%);
+            min-height: 100vh;
+            width: 50%;
+       
+
+        }
+        #second{
+            background-color: #cd5454;
+            min-height: 100vh;
+            width: 50%;
+
+        }
+        #image{
+            width:40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Logo</h1>
+        <div id="Searchbar">
+            <input id="h" type="text" placeholder="Search">
+            <!-- <img src="url(youtube/media/search-alt-2-regular-24.png)" alt=""> -->
+            <img src="./media/search-alt-2-regular-24.png" />
+
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Sirvice</li>
+            <li>Contact</li>
+            <li>About</li>
+            <li><img src="./media/search-alt-2-regular-24.png" /></li>
+            <img  id="image" src="./media/download.png" alt="">
+        </ul>
+    </nav>
+    <div id="main">
+        <div id="first"></div>
+        <div id="second">Hello</div>
+    </div>
+</body>
+</html>
+        
